@@ -1,0 +1,28 @@
+#carousel-example-generic .item img {
+  height: auto;
+
+}
+.carousel-captions p {
+  display: none;
+
+}
+
+@media only screen and (min-width: 768px) {
+  #carousel-example-generic .item img {
+    height: 384;
+
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #carousel-example-generic .item img {
+    height: 496px;
+
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-caption p {
+    display: block;
+  }
+}
